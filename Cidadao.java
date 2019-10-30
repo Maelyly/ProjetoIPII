@@ -1,4 +1,4 @@
-package Primarias;
+package classesprimarias;
 
 public class Cidadao extends Humano{
 	private Casa casa;
@@ -30,7 +30,7 @@ public class Cidadao extends Humano{
 		arma = new Arma();
 		this.setVida(100);
 		protegido = false;
-		this.setNome("Cidad„o comum");
+		this.setClasse("Cidad√£o comum");
 		
 		 
 	}
