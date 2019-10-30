@@ -1,4 +1,4 @@
-package Primarias;
+package classesprimarias;
 
 public class Lobisomem extends Humano{
 	private int dano;
@@ -16,6 +16,7 @@ public class Lobisomem extends Humano{
 		fome = false;
 		noitesSemComer = 0;
 		revelado = false;
+		this.setClasse("Lobisomem");
 
 	}
 	
@@ -28,7 +29,7 @@ public class Lobisomem extends Humano{
 	}
 	public void seRevelar()
 	{
-		//if(tempo.equals("Noite")) só se revela se for noite
+		//if(tempo.equals("Noite")) sÃ³ se revela se for noite
 		revelado=true;
 	}
 
@@ -37,7 +38,7 @@ public class Lobisomem extends Humano{
 		 this.fome();
 		 if(fome)
 		 {
-			//h = aleatorio de posição da lista de jogadores;
+			//h = aleatorio de posiÃ§Ã£o da lista de jogadores;
 		 }
 			 if(h instanceof Cidadao)
 				{
