@@ -3,26 +3,14 @@ package classesprimarias;
 public abstract class Humano{
 	
 	private int vida;
-	private boolean vivo;
-	private String classe;
-	private Jogador jogador;
+	private String nomeClasse;
 	
-	public Jogador getJogador() {
-		return jogador;
-	}
-	public void setJogador(Jogador jogador) {
-		this.jogador = jogador;
-	}
-	public void morrer()
-	{
-		vivo = false;
-	}
-	public void PerderVida(int n)
-	{
+	
+	
+	public void PerderVida(int n){
 		vida = vida-n;
 	}
-	public void curar(int n)
-	{
+	public void curar(int n){
 		vida = vida+n;
 	}
 	abstract void darDano(Humano h);
@@ -32,17 +20,11 @@ public abstract class Humano{
 	public void setVida(int vida) {
 		this.vida = vida;
 	}
-	public boolean isVivo() {
-		return vivo;
+	public String getNome() {
+		return nomeClasse;
 	}
-	public void setVivo(boolean vivo) {
-		this.vivo = vivo;
-	}
-	public String getClasse() {
-		return classe;
-	}
-	public void setClasse(String nome) {
-		this.classe = nome;
+	public void setNome(String nome) {
+		this.nomeClasse = nome;
 	}
 	
 

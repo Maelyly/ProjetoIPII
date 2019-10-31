@@ -30,7 +30,9 @@ public class Cidadao extends Humano{
 		arma = new Arma();
 		this.setVida(100);
 		protegido = false;
-		this.setClasse("Cidadão comum");
+		this.setNome("Cidadão comum");
+		
+		 
 	}
 	public void darDano(Humano h)
 	{
@@ -79,6 +81,7 @@ public class Cidadao extends Humano{
 			arma.setMelhoria(3);
 		}
 	}
+	
 	
 
 }
