@@ -17,7 +17,7 @@ private int acoes = 2;
 		this.acoes = acoes;
 	}
 
-	public void tocar(List<Jogador> jogadores)
+	public void tocar(List<Jogador> jogadores) //lista de cidadao não de jogadores (faz mais sentido já que o bardo só faz isso na segunda parte do jogo quando ele já sabe quem é lobo e quem n é)
 	{
 		if(acoes >= 1) {
 			acoes--;
