@@ -1,0 +1,12 @@
+//checagem no fim de cada turno
+	public void checagem(List<Jogador> mortosNaPartida) {
+		for(int i = 0;i < mortosNaPartida.size();i++) {
+			if(mortosNaPartida.get(i).getPersonagem().getClasse().equalsIgnoreCase("Mineiro")){
+				((Mineiro)(mortosNaPartida.get(i).getPersonagem())).mineiroMorreu(this.cont.getRepoPessoas().getJogadores());
+			}
+			
+			if(mortosNaPartida.get(i).getPersonagem().getClasse().equalsIgnoreCase("Ritualistico")){
+				((Ritualistico)(mortosNaPartida.get(i).getPersonagem())).amaldicoar();
+			}
+		}
+	}
