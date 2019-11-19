@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="515.0" prefWidth="237.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="526.0" fitWidth="252.0" layoutY="-5.0">
+         <image>
+            <Image url="@../../../../Documents/9e2d72ad158f2fb9686087ab43563172.jpg" />
+         </image>
+      </ImageView>
+      <Button blendMode="HARD_LIGHT" layoutX="69.0" layoutY="408.0" mnemonicParsing="false" text="NOVO JOGO" textFill="#530404">
+         <font>
+            <Font name="Ink Free" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
